@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "chronosacaria.testmod.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ItemMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
