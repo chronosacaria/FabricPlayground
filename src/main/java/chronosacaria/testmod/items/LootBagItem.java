@@ -9,8 +9,11 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class TestItem extends Item {
-    public TestItem(Settings settings) {
+public class LootBagItem extends Item {
+
+    // This could be a Mould Item, a Loot Bag, etc.
+
+    public LootBagItem(Settings settings) {
         super(settings);
     }
 
@@ -21,7 +24,7 @@ public class TestItem extends Item {
             itemStack.decrement(1);
         }
 
-        user.getInventory().insertStack(new ItemStack(Items.DANDELION));
+        user.getInventory().insertStack(new ItemStack(Items.NETHERITE_SWORD));
         return new TypedActionResult<>(ActionResult.SUCCESS, itemStack);
     }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "patchouli:shaped_book_recipe",
+  "pattern": [
+    "#W#",
+    "ESE",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "W": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:writable_book"
+    },
+    "B": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "book": "testmod:testguide"
+}
